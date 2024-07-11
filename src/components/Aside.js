@@ -37,7 +37,6 @@ export function Aside({ setCategory, setSelectedBrands, handlePriceFilter }) {
     }, [selectedBrandsState, setSelectedBrands]);
 
     const handleCategoryClick = (category) => {
-        console.log("Clicked..")
         setSelectedCategory(category);
         setCategory(category);
     };
