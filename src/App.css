@@ -1,0 +1,271 @@
+/* Base styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  max-width: 100%;
+  padding: 10px;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.total-products {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Filter button styles */
+.filter-button {
+  display: none;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Main content styles */
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content.show-filters .content {
+  display: block;
+}
+
+.content {
+  background-color: #fff;
+  margin-bottom: 20px;
+  margin-top: 0.9rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+aside {
+  padding: 15px;
+}
+
+aside h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+aside li {
+  padding: 10px 0;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+aside li:hover {
+  background-color: #f7f0f0;
+  border-radius: 10px;
+}
+
+.brandContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.brand-list {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.priceRange-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+input[type="range"] {
+  width: 80%;
+  margin-right: 10px;
+}
+
+.price-filter {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Product container styles */
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 15px;
+  
+}
+
+/* Card styles */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  height: 375px;
+  margin: 0 auto;
+}
+
+.card-header {
+  padding: 10px;
+}
+
+.product-image {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  background-color: #f8f8f8;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.brand-name {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.product-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.price-tagg {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.category-desc {
+  margin-left: 0.5rem;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .filter-button {
+    display: none;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .feature-label {
+    font-size: small;
+  }
+
+  .main-content {
+    flex-direction: row;
+  }
+
+  .content {
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    display: block;
+  }
+
+  .product-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .product-container {
+    width: 80%;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .filter-button {
+    display: block;
+    width: auto;
+  }
+
+  .category-desc {
+    font-size: 12px;
+  }
+
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main-content.show-filters .content {
+    display: block;
+  }
+
+  .product-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .priceRange-container {
+    display: flex;
+    gap: 1rem;
+  }
+
+  input[type="range"] {
+    width: 30%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .price-filter {
+    width: 15%;
+    padding: auto;
+    margin-top: -0.45rem;
+    font-size: 16px;
+  }
+}
+
+@media (min-width : 768px) and (max-width : 1023px){
+  .product-container{
+    
+    width: 70%;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+  }
+}
