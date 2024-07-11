@@ -224,7 +224,7 @@ input[type="range"] {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
-@media (min-width: 1024px){
+@media (min-width: 380px){
   .product-container {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   }
