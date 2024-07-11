@@ -16,6 +16,7 @@ const brands = [
 export function Aside({ setCategory, setSelectedBrands, handlePriceFilter }) {
     const [price, setPrice] = useState(450000);
     const [selectedBrandsState, setSelectedBrandsState] = useState([]);
+    const [selectedCategory, setSelectedCategory] = useState('All');
 
     const handleSlider = (e) => {
         setPrice(e.target.value);
@@ -25,8 +26,7 @@ export function Aside({ setCategory, setSelectedBrands, handlePriceFilter }) {
         setSelectedBrandsState(prev => {
             if (prev.includes(brand)) {
                 return prev.filter(b => b !== brand);
-            }
-            else {
+            } else {
                 return [...prev, brand]
             }
         })
@@ -36,37 +36,62 @@ export function Aside({ setCategory, setSelectedBrands, handlePriceFilter }) {
         setSelectedBrands(selectedBrandsState);
     }, [selectedBrandsState, setSelectedBrands]);
 
-    return <>
+    const handleCategoryClick = (category) => {
+        console.log("Clicked..")
+        setSelectedCategory(category);
+        setCategory(category);
+    };
 
+    return (
         <div className="content">
-
             <aside>
                 <h3>Category</h3>
                 <ul>
-                    <li onClick={() => setCategory('All')}>All</li>
-                    <li onClick={() => setCategory('Mobile')}>Mobile</li>
-                    <li onClick={() => setCategory('Laptops')}>Laptops</li>
-                    <li onClick={() => setCategory('Clothing')}>Clothing</li>
-                    <li onClick={() => setCategory('Accessories')}>Accessories</li>
+                    <li 
+                        className={selectedCategory === 'All' ? 'selectedBtn' : ''}
+                        onClick={() => handleCategoryClick('All')}
+                    >
+                        All
+                    </li>
+                    <li 
+                        className={selectedCategory === 'Mobile' ? 'selectedBtn' : ''}
+                        onClick={() => handleCategoryClick('Mobile')}
+                    >
+                        Mobile
+                    </li>
+                    <li 
+                        className={selectedCategory === 'Laptops' ? 'selectedBtn' : ''}
+                        onClick={() => handleCategoryClick('Laptops')}
+                    >
+                        Laptops
+                    </li>
+                    <li 
+                        className={selectedCategory === 'Clothing' ? 'selectedBtn' : ''}
+                        onClick={() => handleCategoryClick('Clothing')}
+                    >
+                        Clothing
+                    </li>
+                    <li 
+                        className={selectedCategory === 'Accessories' ? 'selectedBtn' : ''}
+                        onClick={() => handleCategoryClick('Accessories')}
+                    >
+                        Accessories
+                    </li>
                 </ul>
                 <h3>Brands</h3>
                 <div className="brandContainer">
-                    {brands.map((brand) => {
-                        return <div className="brand-list" key={brand}>
-
+                    {brands.map((brand) => (
+                        <div className="brand-list" key={brand}>
                             <input
                                 type="checkbox"
                                 id={brand}
                                 checked={selectedBrandsState.includes(brand)}
                                 onChange={() => handleBrandChange(brand)}
                             />
-                            <label>{brand}</label>
-
+                            <label htmlFor={brand}>{brand}</label>
                         </div>
-                    })}
+                    ))}
                 </div>
-
-
                 <h3>Price</h3>
                 <div className="slider-range">0 - {price}</div>
                 <div className="priceRange-container">
@@ -76,11 +101,9 @@ export function Aside({ setCategory, setSelectedBrands, handlePriceFilter }) {
                         max="300000"
                         value={price}
                         onChange={handleSlider} />
-
                     <button className="price-filter" onClick={() => handlePriceFilter(price)}>Go</button>
                 </div>
-
             </aside>
         </div>
-    </>
+    );
 }

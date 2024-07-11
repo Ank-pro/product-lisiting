@@ -84,6 +84,12 @@ aside li:hover {
   border-radius: 10px;
 }
 
+.selectedBtn {
+  background-color: #4d1616; 
+  border-radius: 10px;
+  font-weight: bold;
+}
+
 .brandContainer {
   display: flex;
   flex-wrap: wrap;
@@ -119,7 +125,6 @@ input[type="range"] {
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 15px;
   padding: 15px;
-  
 }
 
 /* Card styles */
@@ -264,7 +269,6 @@ input[type="range"] {
 
 @media (min-width : 768px) and (max-width : 1023px){
   .product-container{
-    
     width: 70%;
     grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
   }

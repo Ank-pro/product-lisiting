@@ -1,0 +1,272 @@
+[
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67e0" },
+    "name": "Galaxy S24 Ultra",
+    "description": "6.8-inch QHD+ display, 200MP camera, S Pen support",
+    "brand": "Samsung",
+    "category": "Mobile",
+    "price": 134999,
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/in/2401/gallery/in-galaxy-s24-s928-sm-s928bzkqins-539573273?$2052_1641_PNG$"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67e1" },
+    "name": "Galaxy Book3 Pro",
+    "description": "14-inch laptop, Intel Core i7, 16GB RAM, 512GB SSD",
+    "brand": "Samsung",
+    "category": "Laptops",
+    "price": 149999,
+    "imageUrl": "https://m.media-amazon.com/images/I/71ef1yicMJL._SL1500_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67e2" },
+    "name": "Galaxy Watch6",
+    "description": "44mm smartwatch with health tracking features",
+    "brand": "Samsung",
+    "category": "Accessories",
+    "price": 33999,
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/in/2307/gallery/in-galaxy-watch6-r935-sm-r930nzeains-537406387?$1300_1038_PNG$"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67e3" },
+    "name": "iPhone 15 Pro",
+    "description": "6.1-inch OLED display, A17 Pro chip, 48MP main camera",
+    "brand": "Apple",
+    "category": "Mobile",
+    "price": 134900,
+    "imageUrl": "https://www.apple.com/newsroom/images/product/iphone/geo/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_GEO_09142021_inline.jpg.large.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67e4" },
+    "name": "MacBook Air M3",
+    "description": "13.6-inch Retina display, M3 chip, 8GB RAM, 256GB SSD",
+    "brand": "Apple",
+    "category": "Laptops",
+    "price": 114900,
+    "imageUrl": "https://www.indiaistore.com/files/uploads/products/macbook-air-m3/images/hero_large.png?1708555710107"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67e5" },
+    "name": "AirPods Pro (2nd generation)",
+    "description": "Active noise cancelling earbuds with spatial audio",
+    "brand": "Apple",
+    "category": "Accessories",
+    "price": 24900,
+    "imageUrl": "https://m.media-amazon.com/images/I/2110TEYPKnL._SX300_SY300_QL70_FMwebp_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67e6" },
+    "name": "ThinkPad X1 Carbon Gen 11",
+    "description": "14-inch ultrabook, Intel Core i7, 16GB RAM, 512GB SSD",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "price": 164990,
+    "imageUrl": "https://m.media-amazon.com/images/I/412VqQJqKVL._SY300_SX300_QL70_FMwebp_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67e7" },
+    "name": "Yoga Tab 13",
+    "description": "13-inch Android tablet with built-in kickstand",
+    "brand": "Lenovo",
+    "category": "Mobile",
+    "price": 49999,
+    "imageUrl": "https://m.media-amazon.com/images/I/51vVZIrU53L._SY300_SX300_QL70_FMwebp_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67e8" },
+    "name": "ThinkVision P27h-20 Monitor",
+    "description": "27-inch QHD IPS monitor with USB-C docking",
+    "brand": "Lenovo",
+    "category": "Accessories",
+    "price": 39999,
+    "imageUrl": "https://m.media-amazon.com/images/I/31FkGmFzCmL.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67e9" },
+    "name": "Dri-FIT T-Shirt",
+    "description": "Moisture-wicking athletic t-shirt",
+    "brand": "Nike",
+    "category": "Clothing",
+    "price": 2495,
+    "imageUrl": "https://m.media-amazon.com/images/I/512NCDqtexL._SX679_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67ea" },
+    "name": "Air Zoom Pegasus 39",
+    "description": "Responsive cushioned running shoes",
+    "brand": "Nike",
+    "category": "Clothing",
+    "price": 10795,
+    "imageUrl": "https://assets.ajio.com/medias/sys_master/root/20230306/1kiW/6405c2afaeb26924e3a42ea2/-473Wx593H-469434688-blackgrey-MODEL.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67eb" },
+    "name": "Brasilia Training Backpack",
+    "description": "Durable backpack with laptop sleeve",
+    "brand": "Nike",
+    "category": "Accessories",
+    "price": 2995,
+    "imageUrl": "https://m.media-amazon.com/images/I/81DmdM6vvvL._SX679_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67ec" },
+    "name": "XPS 15",
+    "description": "15.6-inch 4K OLED display, Intel Core i9, 32GB RAM, 1TB SSD",
+    "brand": "Dell",
+    "category": "Laptops",
+    "price": 224990,
+    "imageUrl": "https://images-cdn.ubuy.co.in/633b11ae9fd918253e664eb8-dell-xps-15-9570-fhd-laptop-pc-intel.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67ed" },
+    "name": "Alienware x17 R2",
+    "description": "17.3-inch gaming laptop, Intel Core i9, RTX 3080 Ti, 32GB RAM",
+    "brand": "Dell",
+    "category": "Laptops",
+    "price": 399990,
+    "imageUrl": "https://m.media-amazon.com/images/I/61GlefoRItL._SL1080_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67ee" },
+    "name": "UltraSharp U2720Q Monitor",
+    "description": "27-inch 4K USB-C monitor",
+    "brand": "Dell",
+    "category": "Accessories",
+    "price": 64999,
+    "imageUrl": "https://images-cdn.ubuy.co.in/651593178accf967ff1de610-dell-ultrasharp-u2720q-27-inch-4k-uhd.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67ef" },
+    "name": "ROG Phone 7 Ultimate",
+    "description": "6.78-inch AMOLED display, Snapdragon 8 Gen 2, 16GB RAM",
+    "brand": "Asus",
+    "category": "Mobile",
+    "price": 99999,
+    "imageUrl": "https://m.media-amazon.com/images/I/51a-MnQFCaL.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67f0" },
+    "name": "ROG Zephyrus G14",
+    "description": "14-inch gaming laptop, AMD Ryzen 9, RTX 4090, 32GB RAM",
+    "brand": "Asus",
+    "category": "Laptops",
+    "price": 249990,
+    "imageUrl": "https://m.media-amazon.com/images/I/81WscwPhkmL._SL1500_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67f1" },
+    "name": "ROG Delta S Wireless Headset",
+    "description": "Low-latency wireless gaming headset with AI noise cancellation",
+    "brand": "Asus",
+    "category": "Accessories",
+    "price": 22999,
+    "imageUrl": "https://m.media-amazon.com/images/I/71K5y1yATzL._SL1500_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67f2" },
+    "name": "Pixel 8 Pro",
+    "description": "6.7-inch LTPO OLED display, Google Tensor G3, 12GB RAM",
+    "brand": "Google",
+    "category": "Mobile",
+    "price": 106999,
+    "imageUrl": "https://m.media-amazon.com/images/I/61X4kxP-OnL._SL1500_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67f3" },
+    "name": "Pixelbook Go",
+    "description": "13.3-inch Chromebook, Intel Core i5, 8GB RAM, 128GB SSD",
+    "brand": "Google",
+    "category": "Laptops",
+    "price": 89999,
+    "imageUrl": "https://m.media-amazon.com/images/I/81sDDc7rKqL._SL1500_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67f4" },
+    "name": "Pixel Buds Pro",
+    "description": "Wireless earbuds with active noise cancellation",
+    "brand": "Google",
+    "category": "Accessories",
+    "price": 19990,
+    "imageUrl": "https://m.media-amazon.com/images/I/51CcG2vaZbL._SL1217_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67f5" },
+    "name": "Classic Polo Shirt",
+    "description": "100% cotton polo shirt with embroidered logo",
+    "brand": "Lacoste",
+    "category": "Clothing",
+    "price": 7500,
+    "imageUrl": "https://m.media-amazon.com/images/I/61IQfqbcnWL._SY741_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67f6" },
+    "name": "Chantaco Leather Handbag",
+    "description": "Medium-sized leather handbag with adjustable strap",
+    "brand": "Lacoste",
+    "category": "Accessories",
+    "price": 21000,
+    "imageUrl": "https://m.media-amazon.com/images/I/61VRzwUgq3L._SX679_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67f7" },
+    "name": "Sport Chronograph Watch",
+    "description": "Stainless steel chronograph watch with silicone strap",
+    "brand": "Lacoste",
+    "category": "Accessories",
+    "price": 15000,
+    "imageUrl": "https://m.media-amazon.com/images/I/619eSZnjNML._SY879_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67f8" },
+    "name": "Slim Fit Dress Shirt",
+    "description": "Non-iron cotton dress shirt for formal occasions",
+    "brand": "Tommy Hilfiger",
+    "category": "Clothing",
+    "price": 4999,
+    "imageUrl": "https://m.media-amazon.com/images/I/71wiKrHYFgL._SX679_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67f9" },
+    "name": "Classic Leather Belt",
+    "description": "Reversible leather belt with logo buckle",
+    "brand": "Tommy Hilfiger",
+    "category": "Accessories",
+    "price": 3499,
+    "imageUrl": "https://m.media-amazon.com/images/I/519MZH6LJUL._SY879_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67fa" },
+    "name": "Signature Hooded Sweatshirt",
+    "description": "Cotton-blend hoodie with front logo",
+    "brand": "Tommy Hilfiger",
+    "category": "Clothing",
+    "price": 6999,
+    "imageUrl": "https://m.media-amazon.com/images/I/71ardXto8oL._SX679_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67fb" },
+    "name": "Predator Triton 500 SE",
+    "description": "16-inch gaming laptop, Intel Core i9, RTX 4080, 32GB RAM",
+    "brand": "Acer",
+    "category": "Laptops",
+    "price": 289999,
+    "imageUrl": "https://m.media-amazon.com/images/I/51EPoRojvRL._SY300_SX300_QL70_FMwebp_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67fc" },
+    "name": "Swift 5",
+    "description": "14-inch ultrabook, Intel Core i7, 16GB RAM, 1TB SSD",
+    "brand": "Acer",
+    "category": "Laptops",
+    "price": 109999,
+    "imageUrl": "https://m.media-amazon.com/images/I/41m1gt7DEZL._SX300_SY300_QL70_FMwebp_.jpg"
+  },
+  {
+    "_id": { "$oid": "64ad6d8f5f9b5d3d437e67fd" },
+    "name": "Nitro XV340CK Gaming Monitor",
+    "description": "34-inch ultrawide QHD IPS gaming monitor, 144Hz",
+    "brand": "Acer",
+    "category": "Accessories",
+    "price": 49999,
+    "imageUrl": "https://m.media-amazon.com/images/I/41yKYsGWNJL._SY300_SX300_QL70_FMwebp_.jpg"
+  }
+]
