@@ -79,13 +79,13 @@ aside li {
   border-bottom: 1px solid #eee;
 }
 
-aside li:hover {
+/* aside li:hover {
   background-color: #f7f0f0;
   border-radius: 10px;
-}
+} */
 
 .selectedBtn {
-  background-color: #d8cfcf;
+  /* background-color: #d8cfcf; */
   border-radius: 10px;
   font-weight: bold; 
 }
